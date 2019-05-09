@@ -5,8 +5,8 @@ namespace AlibabaCloud\LinkFace;
 use AlibabaCloud\Client\Resolver\VersionResolver;
 
 /**
- * @deprecated
+ * @method static V20180720\LinkFaceApiResolver v20180720()
  */
-class LinkFaceVersion extends VersionResolver
+class LinkFace extends VersionResolver
 {
 }
